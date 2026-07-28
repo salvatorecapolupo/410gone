@@ -1,4 +1,6 @@
-# Gone 410 CSV for WordPress
+# And... it's 410 Gone! - WordPress Plugin
+
+![It's 410 Gone](itsgone.gif)
 
 WordPress è fantastico e lo sappiamo.
 Ma su alcuni server le richieste di generare un errore 410, che indica una condizione simile all'errore 404
@@ -28,7 +30,10 @@ In questi casi il codice HTTP **410 Gone** comunica ai motori di ricerca che la 
 
 # Come funziona
 
-Il plugin legge un semplice file `gone.csv`.
+Il plugin legge un semplice file `Table.csv`, esportato dalla Search Console del tuo sito. 
+Questo è un plugin di SEO tecnica ed andrebbe usato con cognizione di causa!
+
+![searchconsole](screensearchconsole.png)
 
 Ogni richiesta viene confrontata con gli URL presenti nel file.
 
