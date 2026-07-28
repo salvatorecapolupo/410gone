@@ -31,6 +31,10 @@ In questi casi il codice HTTP **410 Gone** comunica ai motori di ricerca che la 
 # Come funziona
 
 Il plugin legge un semplice file `Table.csv`, esportato dalla Search Console del tuo sito. 
+Attenzione: il file va rinominato come gone.csv prima di caricarlo altrimenti non funzionerà.
+Tutti gli url presenti nel file CSV emetteranno un 410 (anche se non sono stati cancellati).
+Oer coerenza, meglio cancellarli!
+
 Questo è un plugin di SEO tecnica ed andrebbe usato con cognizione di causa!
 
 ![searchconsole](screensearchconsole.png)
